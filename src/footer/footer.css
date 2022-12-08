@@ -1,0 +1,19 @@
+.hr {
+    background-color: black;
+    border: none;
+    height: 3px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-items li {
+    list-style: none;
+    text-transform: uppercase;
+    color: #46C7C7;
+    margin-left: 20px;
+    font-weight: bold;
+}

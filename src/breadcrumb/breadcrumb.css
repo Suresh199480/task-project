@@ -1,0 +1,17 @@
+.follow-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #46C7C7;
+    width: 15%;
+    text-align: center;
+    margin-left: 40%;
+    padding: 8px 10px;
+    color: white;
+}
+
+@media(max-width:768px) {
+    .follow-btn {
+        width: 30%;
+    }
+}

@@ -1,0 +1,18 @@
+.box-10,
+.box-11,
+.box-12,
+.box-13 {
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    margin-top: 30px;
+}
+
+@media(max-width:768px) {
+    .empty .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

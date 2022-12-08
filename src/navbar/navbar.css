@@ -1,0 +1,75 @@
+.nav-container {
+    margin-top: 100px;
+}
+
+#logo {
+    color: #46C7C7;
+}
+
+#logo img {
+    width: 100px;
+    height: 70px;
+}
+
+.nav-menu .nav-items {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-menu .nav-items .nav-link {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #46C7C7;
+}
+
+.nav-menu .nav-items .contact-btn {
+    background-color: #46C7C7;
+    color: #fff;
+    padding: 8px 16px;
+}
+
+.toggle-btn {
+    display: none;
+}
+
+@media(max-width:768px) {
+    .nav-menu {
+        display: none;
+        margin-top: 50px;
+    }
+    .toggle-btn {
+        display: block;
+        position: absolute;
+        font-size: 40px;
+        border: none;
+        outline: none;
+        right: 25px;
+        z-index: 999;
+    }
+    .toggle-btn:focus {
+        outline: none;
+    }
+    .nav-menu.active {
+        display: block;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        left: 0;
+        transition: all .7s ease-in;
+        height: 100vh;
+        z-index: 999;
+        margin-top: 170px;
+    }
+    .nav-menu .nav-items {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-menu .nav-items .nav-link {
+        padding: 18px 0px;
+    }
+    .nav-menu .nav-items .contact-btn {
+        width: 20%;
+    }
+}
